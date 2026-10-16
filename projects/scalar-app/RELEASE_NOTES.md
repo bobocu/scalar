@@ -9,6 +9,19 @@
   on every release - edits made directly here will be overwritten.
 -->
 
+## 1.1.41 (2026-10-16)
+
+### Security and styling improvements
+
+This release strengthens OAuth security by validating authorization URLs before opening them, and fixes styling issues when embedding the API client in existing applications.
+
+- OAuth authorization URLs are now validated to prevent non-web protocols from being opened
+- Desktop external links are restricted to HTTPS or local development HTTP URLs
+- Embedded integrations no longer override host page background colors and margins
+- CSS layer support ensures Scalar styles do not conflict with host page styling
+
+[Read full release notes](https://github.com/scalar/scalar/blob/main/projects/scalar-app/CHANGELOG.md#1141)
+
 ## 1.1.40 (2026-10-12)
 
 ### Traditional Chinese localization and authentication polish

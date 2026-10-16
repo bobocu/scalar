@@ -9,6 +9,17 @@
   on every release - edits made directly here will be overwritten.
 -->
 
+## 0.12.44 (2026-10-16)
+
+### Security update and code quality improvements
+
+This release updates the AI SDK to patch a security advisory in response body handling and cleans up code quality issues without changing functionality.
+
+- Updated AI SDK dependencies to address GHSA-866g-f22w-33x8 security advisory in response handling.
+- Improved code quality by cleaning up lint warnings while preserving all runtime behavior.
+
+[Read full release notes](https://github.com/scalar/scalar/blob/main/packages/agent-chat/CHANGELOG.md#01244)
+
 ## 0.12.43 (2026-10-12)
 
 ### Polish and bug fixes shipped

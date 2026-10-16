@@ -9,6 +9,20 @@
   on every release - edits made directly here will be overwritten.
 -->
 
+## 1.75.0 (2026-10-16)
+
+### AsyncAPI display improvements and schema search
+
+This release brings extensive AsyncAPI support, including tags, bindings, external documentation, replies, and proper handling of non-JSON schema formats. Search now indexes nested response fields and traverses complex schema structures.
+
+- Display and filter by AsyncAPI tags across servers, operations, and messages while preserving channel grouping
+- Render AsyncAPI operation replies with expandable message schemas and dynamic address expressions
+- Search nested schema fields in responses, webhooks, and models with cycle-safe traversal that ranks exact names above prose
+- Display AsyncAPI binding details for servers, channels, operations, and messages, including versions and inherited values
+- Render Avro, Protobuf, and other non-JSON schema formats as labeled source instead of hiding them
+
+[Read full release notes](https://github.com/scalar/scalar/blob/main/packages/api-reference/CHANGELOG.md#1750)
+
 ## 1.74.0 (2026-10-12)
 
 ### AsyncAPI documentation improvements and SDK generation tools
