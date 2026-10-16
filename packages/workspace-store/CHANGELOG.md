@@ -1,5 +1,18 @@
 # @scalar/workspace-store
 
+## 0.68.4
+
+### Patch Changes
+
+- [#10530](https://github.com/scalar/scalar/pull/10530): Render AsyncAPI external documentation on servers, channels, operations, messages, tags, and schemas, with referenced objects and descriptions, using the existing OpenAPI link presentation.
+
+  Keep AsyncAPI messages searchable when navigation renders them beneath operations.
+
+- [#10599](https://github.com/scalar/scalar/pull/10599): Preserve recursive schemas when generating request bodies, code samples, and response examples instead of replacing recursion points with null or empty arrays.
+- [#10607](https://github.com/scalar/scalar/pull/10607): Block private-network document requests by default and require an explicit documentLoading.basePath for local files. Apply the same permissions to external references, with an opt-in for trusted private-network inputs.
+- [#10588](https://github.com/scalar/scalar/pull/10588): Ignore sibling properties on AsyncAPI Reference Objects when rendering content, navigation, search, and schemas.
+- [#10614](https://github.com/scalar/scalar/pull/10614): Clean up lint warnings while preserving runtime behavior, and document intentional schema and type syntax.
+
 ## 0.68.3
 
 ### Patch Changes

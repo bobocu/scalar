@@ -1,5 +1,11 @@
 # @scalar/schemas
 
+## 0.13.3
+
+### Patch Changes
+
+- [#10597](https://github.com/scalar/scalar/pull/10597): Render AsyncAPI string discriminators with inherited schema variants and effective discriminator values.
+
 ## 0.13.2
 
 ### Patch Changes

@@ -1,5 +1,16 @@
 # @scalar/components
 
+## 0.32.0
+
+### Minor Changes
+
+- [#10552](https://github.com/scalar/scalar/pull/10552): Search combobox options asynchronously: bind the search text with `v-model:query`, skip client-side filtering with a `filterFn` that returns the options as given, show a spinner or error mark in the search field with `loader`, and add content to the end of the search field with the `search-end` slot.
+
+### Patch Changes
+
+- [#10636](https://github.com/scalar/scalar/pull/10636): Make the discrete sidebar group toggle button 24px so it meets the WCAG 2.5.8 minimum target size.
+- [#10614](https://github.com/scalar/scalar/pull/10614): Clean up lint warnings while preserving runtime behavior, and document intentional schema and type syntax.
+
 ## 0.31.1
 
 ### Patch Changes

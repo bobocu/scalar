@@ -1,5 +1,14 @@
 # @scalar/types
 
+## 0.23.3
+
+### Patch Changes
+
+- [#10597](https://github.com/scalar/scalar/pull/10597): Render AsyncAPI string discriminators with inherited schema variants and effective discriminator values.
+- [#10628](https://github.com/scalar/scalar/pull/10628): Add developer-tools controls for parameter and schema expansion, model names, required properties, and schema property ordering. Preserve explicit toggle overrides of supplied configuration.
+- [#10640](https://github.com/scalar/scalar/pull/10640): Translate the built-in descriptions of integer and string formats (`int32`, `date-time`, `binary` and others) into the configured locale.
+- [#10595](https://github.com/scalar/scalar/pull/10595): Display AsyncAPI channel summaries and addresses separately, and label missing or null addresses as unknown in channel content and search results.
+
 ## 0.23.2
 
 ### Patch Changes

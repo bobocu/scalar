@@ -1,5 +1,13 @@
 # @scalar/api-client
 
+## 3.23.1
+
+### Patch Changes
+
+- [#10608](https://github.com/scalar/scalar/pull/10608): Keep shared component styles from overriding host page body backgrounds and margins, including hosts using CSS layers. Keep full-page body styling in the standalone bundles.
+- [#10626](https://github.com/scalar/scalar/pull/10626): Restrict OAuth authorization and desktop external links to HTTPS or HTTP for local development URLs before opening them.
+- [#10614](https://github.com/scalar/scalar/pull/10614): Clean up lint warnings while preserving runtime behavior, and document intentional schema and type syntax.
+
 ## 3.23.0
 
 ### Minor Changes

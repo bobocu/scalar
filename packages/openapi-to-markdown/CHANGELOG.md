@@ -1,5 +1,13 @@
 # @scalar/openapi-to-markdown
 
+## 1.5.5
+
+### Patch Changes
+
+- [#10606](https://github.com/scalar/scalar/pull/10606): Block private-network document requests by default and require an explicit basePath for local files. Apply the same permissions to external references, with an opt-in for trusted private-network inputs.
+- [#10598](https://github.com/scalar/scalar/pull/10598): Preserve OpenAPI 3.2 tag ancestry in Markdown exports with parent-first breadcrumb headings.
+- [#10614](https://github.com/scalar/scalar/pull/10614): Clean up lint warnings while preserving runtime behavior, and document intentional schema and type syntax.
+
 ## 1.5.4
 
 ### Patch Changes

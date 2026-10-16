@@ -1,5 +1,11 @@
 # @scalar/helpers
 
+## 0.16.4
+
+### Patch Changes
+
+- [#10626](https://github.com/scalar/scalar/pull/10626): Restrict OAuth authorization and desktop external links to HTTPS or HTTP for local development URLs before opening them.
+
 ## 0.16.3
 
 ### Patch Changes
